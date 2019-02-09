@@ -1,0 +1,10 @@
+try:
+  type = str(input("Are you converting Fahrenheit or Celsius."))
+  temp = float(input("to what degree are you converting?"))
+except:
+  print("Please answer according to the directions.")
+  
+if type is ("Fahrenheit"):
+  print (((temp - 32) * 5/9))	
+elif (type is "Celsius"):
+  print (((temp * 9/5) + 32))
